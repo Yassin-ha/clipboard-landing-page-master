@@ -62,7 +62,7 @@ header .button {
 section {
     display: flex;
     flex-direction: column;
-    padding-top: 200px;
+    padding-top: 150px;
     align-items: center;
 }
 section .section-1 {
@@ -93,7 +93,7 @@ section .section-2 .image img {
 section .section-3 {
     display: flex;
     flex-direction: column;
-    padding-top: 200px;
+    padding-top: 150px;
     align-items: center;
 
 }
