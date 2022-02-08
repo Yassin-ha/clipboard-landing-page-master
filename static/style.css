@@ -20,13 +20,16 @@ header {
 } 
 header .logo {
     display: flex;
-    padding-top: 125px;
+    padding-top: 130px;
 }
 header .text {
     display: block;
-    width: 625px;
-    padding-top: 50px;
+    width: 670px;
+    padding-top: 70px;
     text-align: center;
+}
+header .text h1{
+    font-size: 2.7rem;
 }
 
 header .button {
@@ -36,11 +39,11 @@ header .button {
 .d-i {
     background-color: hsl(171, 66%, 44%);
     color: white;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
-    border-radius: 25px;
-    height: 50px;
-    width: 200px;
+    border-radius: 32px;
+    height: 60px;
+    width: 220px;
     margin-right: 15px;
     border: solid transparent;
     box-shadow: -1px 6px 8px 1px hsl(171deg 66% 44% / 32%);
@@ -48,18 +51,18 @@ header .button {
 .d-m {
     background-color: hsl(233, 100%, 69%);
     color: white;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bold;
-    border-radius: 25px;
-    height: 50px;
-    width: 200px;
+    border-radius: 32px;
+    height: 60px;
+    width: 220px;
     border: solid transparent;
     box-shadow: -1px 6px 9px 2px #0000001c;
 }
 section {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 200px;
     align-items: center;
 }
 section .section-1 {
@@ -70,18 +73,18 @@ section .section-1 {
 section .section-2 {
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
+    padding-top: 60px;
     width: 100%;
     height: 100%;
 }
 section .section-2 .text {
-    padding: 3em 16em 2em 3em;
+    padding: 5em 12em 3em 4em;
     width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
 section .section-2 .image {
-    width: 50%;
+    width: 57%;
 }
 section .section-2 .image img {
     width: 100%;
@@ -90,7 +93,7 @@ section .section-2 .image img {
 section .section-3 {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 200px;
     align-items: center;
 
 }
@@ -101,7 +104,7 @@ section .section-3 .text {
 }
 section .section-3 .image-2 {
     display: flex;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 section .section-4 {
     display: flex;
@@ -153,7 +156,7 @@ section .section-4 .tools .tool-a img {
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 footer {
     display: inline-flex;
@@ -199,10 +202,10 @@ p {
     color: hsl(201, 11%, 66%);
     padding-top: 15px;
     font-size: 18px;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
-h2, h1  {
-    font-size: 2.5rem;
+h2 {
+    font-size: 2.2rem;
 }
 .d-i, .d-m:hover {
     cursor: pointer;
@@ -272,6 +275,7 @@ footer .social-media ul li:hover {
     }
     section .section-3 {
         width: 100%;
+        padding-top: 100px;
     }
     section .section-3 .text {
         width: 100%;
@@ -344,7 +348,7 @@ footer .social-media ul li:hover {
         margin: 1em;
     }
     h1, h2 {
-        font-size: 2rem;
+        font-size: 2rem !important;
     }
         
 }
